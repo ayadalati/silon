@@ -1,28 +1,18 @@
 .off50
 {
     /*border: 2px blue solid;*/
-    width: 92%;
-    height: 450;
-    
-    margin: auto;
-    
-
-   
-
-    
-}
-#off
-{
-    width: 100%;
+    width: 99.5%;
     height: 450px;
     background-color:#EAE2D8;
+    margin:0  auto;
+    
 }
 #ban-2
 {
     float: right;
-    width: 600px;
+    width: 45%;
     height: 450px;
-    margin: 0 auto;
+    margin:auto;
     padding: 0;
 }
 
@@ -50,17 +40,21 @@
 {
     padding-top: 130px;
     text-align: center;
-    /*border: 2px green solid;*/
-    width: 600px;
+   /* border: 2px green solid;*/
+    margin:0 auto;
+    width: 45%;
+    float: left;
+    height: 300px;
+    margin-left: 60px;
     
 
 }
 .off-left-text
 {
     /*border: 2px red solid;*/
-    margin-bottom: 200px;
-    margin:0;
-    width: 700px;
+    margin:auto;
+    width: 99%;
+    margin-top: -25px;
 }
 .off-left-part > button
 {

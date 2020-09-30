@@ -1,11 +1,12 @@
 .complete-women
 {
-   /* border: 2px saddlebrown solid;*/
-    width: 100%;
+    /*border: 2px saddlebrown solid;*/
+    width: 99.5%;
     height: 505px;
     margin: auto;
     margin-top: 20px;
     background-color:rgb(242, 194, 190);
+    margin-bottom:80px;
 
 
 
@@ -14,10 +15,12 @@
 {
     /*border: 2px red solid;*/
     float: right;
-   
-   width: 48%;
-    height: 505px;  
-    padding: 0px;
+   padding: 0px;
+   width: 45%;
+    height: 503px; 
+    margin:  auto;
+    margin-right: 20px; 
+    
     
 }
 #complete-p1
@@ -58,18 +61,25 @@
 {
     /*border: 2px yellow solid;*/
     text-align: center;
-    width: 48%;
-    margin: 0px;
+    width: 45%;
+    margin: auto;
     padding: 0px;
     float: left;
-    height:490px ;
+    height:430px ;
+    margin-left: 50px;
+    margin-top: 5px;
+
 
 }
 
 .left-text
 {
+    /*border: #ff5353 2px solid;*/
     text-align: center;
     display: block;
     margin-top: 135px;
+    width: 99%;
+    height: 320px;
+    
 }
 

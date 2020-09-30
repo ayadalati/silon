@@ -1,0 +1,50 @@
+.our-rules
+{
+    /*border: 2px brown solid;*/
+    width: 95%;
+    height: 620px;
+    margin: auto;
+    margin-top: 50px;
+}
+.rules-grid-contener
+{
+    /*border: 2px green solid;*/
+    display: grid;
+    width: 99.5%;
+    grid-template-columns: 25% 25% 25% 25% ;
+    grid-column-gap:3px ;
+    margin: auto;
+}
+.rules-item
+{
+    border: 2px rgb(238, 236, 236) solid;
+    margin: auto;
+    text-align: center;
+    width: 68%;
+    height: 160px;
+    padding: 15px;
+
+
+}
+.rules-image
+{
+    padding: 20px;
+}
+.rules-header
+{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+.rules-footer
+{
+    text-align: center;
+    font-size: 18px;
+    color:gray;
+    line-height: normal;
+    
+}

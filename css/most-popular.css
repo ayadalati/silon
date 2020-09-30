@@ -1,0 +1,53 @@
+.most-popular
+{
+    /*border: 2px saddlebrown solid;*/
+    width: 95%;
+    height: 610px;
+    text-align: center;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+
+.popular-grid-contener
+{
+    /*border: 2px red solid;*/
+    width: 99%;
+    display:grid;
+    padding: 0px;
+    grid-template-columns: 23% 23% 23% 23%;
+    margin:auto;
+    margin-top: 50px;
+   grid-column-gap:30px;
+   
+   
+}
+
+
+.popular-item
+{
+   /* border: 2px green solid;*/
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+    margin: 0 auto;
+    margin-right: -12px;
+  
+}
+.popular-image
+{
+    /*border: 2px blue solid;*/
+    /*width: 250px;*/
+    /*height: 470px;*/
+    width: 100%;
+    padding: 0px; 
+    margin: 0 auto;
+    
+    
+}
+.popular-image:hover
+{
+    cursor: pointer;
+}
+

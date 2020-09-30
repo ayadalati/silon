@@ -1,0 +1,99 @@
+.menu
+{
+    /*border: 2px red solid;*/
+width: 100%;
+background-color: white;
+color: black;   
+height: 48px;
+padding: 0px;
+
+
+}
+.menu > ul
+{
+    
+    /*border: 2px hotpink solid;*/
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: -15px;
+    padding: 0px;
+    list-style-type: none;
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+
+/*.menu>ul>li
+{
+float: left;
+margin-left: 30px;
+padding: 0px;
+display: block;
+}*/
+
+
+
+.menu #logo
+{
+    float: left;
+    margin-top: 19px;
+    margin-left: 70px;
+
+    
+
+}
+.menu .menu-icon
+{
+    /*border: 2px blue solid;*/
+    float:right;
+   
+   margin-top: 25px;
+   margin-right: 125px;
+   padding: 0px;
+   height: 35px;
+    
+}
+.icon-image
+{
+    margin: auto 5px;
+    width: 23px;
+    height: 23px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.icon-image:hover
+{
+cursor: pointer;
+/*background-color:#ff5353;*/
+
+
+}
+.menu-item
+{
+    float: left;
+    margin-left: 65px;
+    margin-top: 5.5px;
+    padding: 0px;
+   /* display: block;*/
+  font-weight: bold;
+   font-size: 15px;
+
+
+}
+.menu a
+{
+    text-decoration:none;
+}
+.menu a:link,a:visited
+{color: black;}
+.menu a:hover,a:active
+{color: #ff5353;}
+
+.submenu-item 
+{
+list-style-type: none;
+}

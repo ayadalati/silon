@@ -1,0 +1,147 @@
+.journal
+{
+    /*border: 2px green solid;*/
+    width: 99%;
+    margin: auto;
+    padding: 0px;
+    height: 750px;
+    margin-bottom: 5px;
+}
+
+.journal-grid-container
+{
+   /* border: 2px skyblue solid;*/
+    width: 99%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 40px;
+    margin-top: 60px;
+    height: 640px;
+}
+.journal-item
+{
+/*border: 2px blueviolet solid;*/
+padding: 0px;
+width: 98%;
+height: 610px;   
+text-align: center;
+margin: 0 auto;
+margin-right: -27px;
+}
+.journal-images
+{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    
+}
+.under-part
+{
+    /*border:red solid 2px;*/
+    display: block;
+    margin: auto;
+    margin-top:15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    height: 170px;
+    
+
+}
+.date
+{
+    text-align: left;
+    font-size: 17px;
+    line-height: normal;
+    
+}
+.date:hover
+{
+    cursor: pointer;
+    color: #ff5353;
+}
+.title
+{
+    text-align: left;
+    font-size: 23px;
+    line-height: normal;
+    margin-top: 10px;
+
+}
+.title:hover
+{
+color: #ff5353;
+cursor: pointer;
+}
+.journal-svg
+{
+    /*border: firebrick solid 2px;*/
+display: inline;
+margin-right: 15px;
+margin-top: 4px;
+margin-bottom: 0px;
+float: left;
+
+}
+
+.women-fashion , .comment
+{
+    /*border: 2px darkblue solid;*/
+    text-align: left;
+display: inline;
+float: left;
+margin-right: 15px;
+}
+
+
+.choice
+{
+   /* border: greenyellow solid 2px;*/
+    width: 95%;
+    height: 50px;
+    padding: 0px;
+    margin: 0 auto;
+
+}
+.choice-left:hover .journal-svg
+{
+fill: #ff5353;
+cursor: pointer;
+}
+
+.choice-left:hover .women-fashion
+{
+    color: #ff5353;
+    cursor: pointer;
+}
+/**********************************/
+.choice-right:hover .journal-svg
+{
+fill: #ff5353;
+cursor: pointer;
+}
+
+.choice-right:hover .comment
+{
+    color: #ff5353;
+    cursor: pointer;
+}
+
+hr
+{
+width: 100%;
+margin-top:15px;
+margin-bottom: 15px;
+
+
+}
+
+.journal svg
+{
+  
+width: 20px;
+height: 20px;
+}
+
+
+

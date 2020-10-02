@@ -1,0 +1,160 @@
+
+.footer
+{
+   /* border: saddlebrown solid 2px;*/
+    width: 99.5%;
+    height: 480px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color:#E9E2D8;
+
+}
+.footer-grid-container
+{
+   /* border: darkblue solid 2px;*/
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    column-gap: 5px;
+    margin: 0 auto;
+    width: 99%;
+    height: 370px;
+    margin-top: 5px;
+
+}
+.footer-item
+{
+  /*border: firebrick solid 2px;*/
+   width: 100%; 
+   height:98% ;
+   margin: 0 auto;
+   text-align: center;
+   margin-right: -80px;
+}
+.footer-item > ul
+{
+    /*border: hotpink solid 2px ;*/
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.footer-item > ul > li:hover
+{
+    color: #ff5353;
+    cursor: pointer;
+}
+.footer-header
+{
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 90%;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top:70px;
+}
+.down-part > .footer-header
+{
+    margin-top: 15px;
+}
+.up-part > .footer-header
+{  
+    margin-top: 70px;
+}
+.footer > hr
+{
+    width: 100%;
+    background-color:rgb(194, 192, 192);
+     height: 0.5px; 
+     border: 0px;
+     margin-top: 50px;
+}
+.copyright
+{
+    /*border:indianred solid 2px;*/
+    color: rgb(148, 147, 147);
+    text-align: center;
+    font-size: 19px;
+    line-height: normal;
+    margin: 0 auto;
+     margin-top: 10px;
+    margin-bottom: 2px;
+}
+.th:link,.th:visited
+{
+    color: #ff5353;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-icon
+{
+    
+    width: 25px;
+    height: 25px;
+    fill:black ;
+    background-color: white;
+    padding: 10px;
+    border-radius:10px;
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    
+    
+}
+.social-icon:hover
+{
+    fill:white ;
+    background-color: #ff5353;
+    cursor: pointer;
+    border-radius:10px;
+}
+.op-icon
+{   
+    width: 25px;
+    height: 25px;
+    fill:black ;
+    background-color: white;
+    padding: 10px;
+    border-radius:10px;
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.op-icon:hover
+{
+    fill:white ;
+    background-color: #ff5353;
+    cursor: pointer;
+    border-radius:10px;
+   
+}

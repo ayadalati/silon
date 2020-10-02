@@ -1,0 +1,40 @@
+.trending-product
+{
+    /*border: 2px seagreen solid;*/
+    width: 99.5%;
+    height:1190px;
+    margin:  auto;
+    margin-bottom: 5px;
+}
+
+.trending-grid-container
+{
+   /* border: 2px firebrick solid;*/
+    display: grid;
+    width: 99%;
+    height: 990px;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-column-gap:10px ;
+    grid-row-gap: 4px;
+    margin-top: 80px;
+    
+}
+.trending-item
+{
+
+/*border: 2px yellowgreen solid;*/
+padding: 0px;
+ width: 98%;
+ height: 450px;   
+ text-align: center;
+ margin: 0 auto;
+ margin-right: -38px;
+}
+.trending-images
+{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px;
+}
